@@ -1,0 +1,119 @@
+body {
+    margin: 40px auto;
+    max-width: 900px;
+    line-height: 1.6;
+    font-size: 18px;
+    color:#666;
+    padding:0 10px;
+    font-family: "Helvetica", "Arial", sans-serif;
+}
+
+h1, h2, nav{
+    color: #333;
+}
+
+h4 {
+    line-height: 1;
+}
+
+.col-1 {
+    position: fixed;
+    overflow: hidden;
+    max-width: 200px;
+}
+
+.col-1 nav{
+    padding-right: 20px;
+}
+
+.col-2 {
+    border-left: #000 1px solid;
+    float: right;
+    max-width: 700px;
+    margin-left: 50px;
+    overflow-y scroll;
+    height: 80%;
+    overflow: auto;
+    padding-left: 20px;
+}
+
+
+#footer {
+    display: none;
+}
+
+ul {
+    padding: 0;
+    list-style-type: none;
+    line-height: 1.2;
+}
+
+#top{
+    height: 80%;
+}
+
+
+
+.all-content {
+    line-height: 1.0;
+    margin: 0;
+    padding: 0;
+}
+
+.semi-content {
+    margin: 20px;
+}
+
+.content {
+    margin-left: 20px;
+    margin-top:10px;
+}
+
+
+footer {
+    left:0px;
+    bottom:0px;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    background: #FFF;
+}
+
+
+.placeholder-div {
+    height: 50px;
+}
+
+.items li {
+    display: inline;
+}
+
+#sub, .items-outer, .items {
+    margin-left: 20px;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+li, li a {
+    text-decoration: none;
+}
+
+
+:target {
+    animation:highlight 2s 1;
+}
+
+@keyframes highlight {
+    80%     {background:yellow;}
+    100%    {background:none;}
+}
+
+a:hover {
+    background-color: #DDD;
+    color: #000;
+    text-decoration: underline;
+}
+
