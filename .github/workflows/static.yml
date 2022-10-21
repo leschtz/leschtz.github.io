@@ -31,7 +31,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
       - name: Check HTML
-        uses: Cyb3r-Jak3/html5validator-action@latest
+        uses: Cyb3r-Jak3/html5validator-action@7.1.1
         with:
           root: .
           css: true
